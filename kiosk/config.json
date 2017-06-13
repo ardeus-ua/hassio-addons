@@ -1,0 +1,10 @@
+{
+  "name": "Kiosk",
+  "version": "0.1",
+  "slug": "kiosk",
+  "description": "Chromium for kiosk mode",
+  "url": "https://home-assistant.io/addons/",
+  "startup": "before",
+  "boot": "auto",
+  "image": "homeassistant/{arch}-addon-kiosk"
+}
