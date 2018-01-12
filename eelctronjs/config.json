@@ -1,0 +1,20 @@
+{
+    "name": "ElectronJS",
+    "version": "0.1",
+    "slug": "example",
+    "description": "ElectronJS kiosk for rPI",
+    "url": "https://github.com/ardeus_ua/electronjs",
+    "startup": "application",
+    "arch": [
+         "armhf"
+    ],
+    "boot": "auto",
+    "options": {
+        "log_level": "info",
+        "seconds_between_quotes": 5
+    },
+    "schema": {
+        "log_level": "match(^(trace|debug|info|notice|warning|error|fatal)$)",
+        "seconds_between_quotes": "int(1,120)"
+    }
+  }
