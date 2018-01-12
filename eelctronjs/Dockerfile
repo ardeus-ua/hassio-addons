@@ -49,5 +49,7 @@ COPY ./app ./
 ## uncomment if you want systemd
 ENV INITSYSTEM on
 
-# Start app
-CMD ["bash", "/usr/src/app/start.sh"]
+COPY run.sh /
+RUN chmod a+x /run.sh
+
+CMD [ "/run.sh" ]
