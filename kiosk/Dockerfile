@@ -8,7 +8,6 @@ RUN apk add --no-cache tzdata chromium-codecs-ffmpeg-extra google-chrome-stable 
 
 # Copy data
 COPY run.sh /
-COPY nginx.conf /etc/
 
 RUN chmod a+x /run.sh
 
